@@ -1,0 +1,40 @@
+{
+    "name": "w2w/apie-domain-plugin",
+    "description": "Adds Domain value objects to Apie",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "jeremykendall/php-domain-parser": "^5.6",
+        "w2w/apie": "3.0.0.x-dev"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.6.*",
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Pieter Jordaan",
+            "email": "pieter.jordaan@way2web.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "W2w\\Lib\\ApieDomainPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "W2w\\Test\\ApieDomainPlugin\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "W2w\\Lib\\ApieDomainPlugin\\DomainPluginServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
