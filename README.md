@@ -1,10 +1,10 @@
 # apie-domain-plugin
 Apie Plugin to make Domain objects work.
 
-[![CircleCI](https://circleci.com/gh/pjordaan/apie-domain-plugin.svg?style=svg)](https://circleci.com/gh/pjordaan/laravel-apie)
-[![codecov](https://codecov.io/gh/pjordaan/apie-domain-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/pjordaan/laravel-apie/)
-[![Travis](https://api.travis-ci.org/pjordaan/apie-domain-plugin.svg?branch=master)](https://travis-ci.org/pjordaan/laravel-apie)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pjordaan/apie-domain-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pjordaan/laravel-apie/?branch=master)
+[![CircleCI](https://circleci.com/gh/pjordaan/apie-domain-plugin.svg?style=svg)](https://circleci.com/gh/pjordaan/apie-domain-plugin)
+[![codecov](https://codecov.io/gh/pjordaan/apie-domain-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/pjordaan/apie-domain-plugin/)
+[![Travis](https://api.travis-ci.org/pjordaan/apie-domain-plugin.svg?branch=master)](https://travis-ci.org/pjordaan/apie-domain-plugin)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pjordaan/apie-domain-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pjordaan/apie-domain-plugin/?branch=master)
 
 This is done with the library [jeremykendall/php-domain-parser](https://github.com/jeremykendall/php-domain-parser).
 
