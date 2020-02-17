@@ -6,7 +6,7 @@ Apie Plugin to make Domain objects work.
 [![Travis](https://api.travis-ci.org/pjordaan/apie-domain-plugin.svg?branch=master)](https://travis-ci.org/pjordaan/laravel-apie)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pjordaan/apie-domain-plugin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pjordaan/laravel-apie/?branch=master)
 
-This is done with the library jeremykendall/php-domain-parser.
+This is done with the library [jeremykendall/php-domain-parser](https://github.com/jeremykendall/php-domain-parser).
 
 ## Installation
 Just use composer to install this package.
