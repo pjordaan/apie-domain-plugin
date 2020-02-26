@@ -42,8 +42,8 @@ class DomainPlugin implements SchemaProviderInterface, NormalizerProviderInterfa
     public function getDefinedStaticData(): array
     {
         return [
-            Domain::class => new Schema(['type' => 'string', 'format' => 'domain']),
-            PublicSuffix::class => new Schema(['type' => 'string', 'format' => 'tld']),
+            Domain::class => new Schema(['type' => 'string', 'format' => 'domain', 'example' => 'example.nl', 'default' => 'example.nl']),
+            PublicSuffix::class => new Schema(['type' => 'string', 'format' => 'tld', 'example' => 'nl', 'default' => 'nl']),
         ];
     }
 
